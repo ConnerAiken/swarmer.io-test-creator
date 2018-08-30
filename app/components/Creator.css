@@ -1,0 +1,10 @@
+.homeWrapper {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 9fr;
+  grid-gap: 1px;
+  grid-template-areas: '.' '.';
+}
+.testTarget {
+}
